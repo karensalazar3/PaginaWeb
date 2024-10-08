@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Elsie:wght@400;900&family=Life+Savers:wght@400;700;800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+
+body {
+    font-family: "Elsie", serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: "Elsie", serif
+}
+
+p {
+    font-family: "Elsie", serif;
+    justify-content: center;
+}
+
+
+.unetealclub,
+.NewCollection {
+    all: unset;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.siguenoseninstagram {
+    all: unset;
+    background-color: rgb(251, 111, 244);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    width: 48;
+    height: 48;
+
+
+}
+
+.siguenoseninstagram¨ {
+    cursor: pointer;
+}
+
+
+header {
+    background-color: #de7ab8;
+    /* Color del encabezado */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar {
+    background-color: #0b0b0b;
+    /* Color de fondo de la barra de navegación */
+}
+
+.navbar nav {
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a {
+    color: white;
+    /* Color del texto */
+    padding: 14px 20px;
+    text-decoration: none;
+    /* Sin subrayado */
+}
+
+.navbar a:hover {
+    background-color: #de7ab8;
+    /* Color al pasar el mouse */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+img {
+    max-width: 100%;
+    /* Para que la imagen no desborde el contenedor */
+    height: auto;
+
+}
+
+video {
+    max-width: 100;
+    height: auto;
+}
+
+
+
+
+fieldset {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+
+
+/*Biografia*/
+
+.description {
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-position-x: center;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+
+
+/* Estilos para las listas */
+ul {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+    margin: 20px 0;
+}
+
+li {
+    margin: 15px 0;
+    color: #333;
+    font-size: 1.2em;
+}
+
+/* Estilo para los subtítulos */
+h3 {
+    color: #000000;
+    margin-top: 30px;
+    text-transform: uppercase;
+}
+
+.img>img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+/* Estilos para las imágenes */
+.imagenes {
+    display: flex;
+    height: auto;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.05);
+    
+    
+}
+
+/* Estilos para la presentación*/
+.description {
+    font-size: 1.1em;
+    color: #f80ff0;
+    margin-bottom: 20px;
+    background-color: #f7c2e3;
+}
+
+
+
+/* Formulario*/
+.formcontainer {
+    background-color: #de7ab8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    width: 100%;
+}
+
+fieldset {
+    border: none;
+    padding: 0;
+}
+
+legend {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #040404;
+    font-weight: bold;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-size: 1em;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+input[type="submit"] {
+    background-color: #ffffff;
+    font-family: "Elsie", serif;
+    color: rgb(0, 0, 0);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-top: 15px;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #ff00aa;
+
+}
+
+textarea {
+    resize: none;
+}
+
+@media screen and (max-width: 600px) {
+
+    .formcontainer {
+        padding: 15px;
+    }
+
+    legend {
+        font-size: 1.2em;
+    }
+
+    video {
+        border: 5px solid #fd66d7;
+        border-radius: 15px;
+        transition: transform 0.3s ease-in-out;
+    }
+}
